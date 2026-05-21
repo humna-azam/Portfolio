@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Humna Azam - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </head>
+  <body>
+    
+    <header>
+      <nav>
+    <div class="logo">Humna<span>.</span></div>
+    
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<script>
+    function toggleMenu() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    }
+</script>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-image animate_animated animate_backInLeft">
+                    <img src="./images/back 4.jfif" alt="Hamna Jam">
+                </div>
+                <div class="hero-content">
+                    <h1><span class="hi-txt">Hi</span>, I am <span class="name-txt">Humna Azam</span></h1>
+                    <h2>Web Developer from Pakistan</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+          <div class="container">
+              <h2 class="section-title">My Education</h2>
+              <div class="edu-container">
+                <div class="edu-card">
+                  <h3>Bachelors in Computer Science (BSCS)</h3>
+                  <p>Iqra University</p>
+                  <span>2023-2026</span>
+                </div>
+                <div class="edu-card">
+                  <h3>Intermediate (Pre-Engineering)</h3>
+                  <p>Karachi Board</p>
+                  <span>2021 - 2022</span>
+                </div>
+                <div class="edu-card">
+                  <h3>Matric (Science)</h3>
+                  <p>Karachi Board</p>
+                  <span>2020 - 2022</span>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+          <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+              <div class="skill">
+                <div class="skill-info">
+                  <h3>HTML</h3>
+                  <span>95%</span>
+                </div>
+                <div class="progress-bar"><div class="progress html"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-info">
+                  <h3>CSS</h3>
+                  <span>90%</span>
+                </div>
+                <div class="progress-bar"><div class="progress css"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-info">
+                  <h3>Bootstrap</h3>
+                  <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress bootstrap"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-info">
+                  <h3>JavaScript</h3>
+                  <span>80%</span>
+                </div>
+                <div class="progress-bar"><div class="progress js"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-info">
+                  <h3>Web Design</h3>
+                  <span>88%</span>
+                </div>
+                <div class="progress-bar"><div class="progress design"></div></div>
+              </div>
+              <div class="skill">
+                <div class="skill-info">
+                  <h3>Web Development</h3>
+                  <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress dev"></div></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="certificates" class="certificates">
+          <div class="container">
+              <h2 class="section-title">My Certificates</h2>
+              <div class="cert-container">
+                <div class="cert-card">
+                  <i class="fa-solid fa-graduation-cap cert-icon"></i>
+                  <h3>HTML Essentials</h3>
+                  <a href="./certificates/html.jfif" target="_blank">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                  <i class="fa-solid fa-graduation-cap cert-icon"></i>
+                  <h3>CSS Essentials</h3>
+                  <a href="./certificates/css.jfif" target="_blank">View Certificate</a>
+                </div>
+                <div class="cert-card">
+                  <i class="fa-solid fa-graduation-cap cert-icon"></i>
+                  <h3>Python Essentials</h3>
+                  <a href="./certificates/python.jfif" target="_blank">View Certificate</a>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <section id="project">
+    <h2 class="section-title">My Work</h2>
+    
+    <div class="project-container">
+        
+        <div class="grid-item">
+            <div class="card">
+                <img src="./images/d2.PNG" alt="Dice Battle Game Mockup">
+                
+                <div class="card-content">
+                    <h3>Dice Battle Game</h3>
+                    <p>Interactive JavaScript Dice Roller. Features smooth animation, dynamic scoring, and responsive CSS grid logic.</p>
+                    <a href="#" target="_blank" class="project-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="card">
+                <img src="./images/portfolio.PNG" alt="Project 2 Mockup">
+                <div class="card-content">
+                    <h3>Portfolio Website</h3>
+                    <p>A current showcase of my development jouney,skills and project built with modern HTML,CSS.</p>
+                    <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="card">
+                <img src="./images/p new.PNG" alt="Project 3 Mockup">
+                <div class="card-content">
+                    <h3>Digital Menu App</h3>
+                    <p>Browse order and pay foryour favourite dishes with ease.Our app is fast and secure.</p>
+                    <a href="#" class="project-link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Let's work together...</h2>
+                <div class="contact-box">
+                    <div class="contact-way">
+                        <i class="fab fa-linkedin"></i>
+                        <h3><a href="https://www.linkedin.com/in/humna-azam-3984ba293" target="_blank">Linkedin</a></h3>
+                    </div>
+                    <div class="contact-way">
+                        <i class="fa-brands fa-github"></i>
+                        <h3><a href="https://github.com/humna-azam" target="_blank">Github</a></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <div class="container">© 2026 | Created By Humna Azam</div>
+    </footer>
+
+  </body>
+</html>
